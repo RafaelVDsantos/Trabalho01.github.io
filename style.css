@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-image: url("Imag.jpg");
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    background-color: blueviolet;
+    width: 25%;
+    border-right: 14px;
+    margin: 5px;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+}
+
+input {
+    margin-bottom: 15px;
+    margin-left: 5%;
+    width: 60%;
+    border-radius: 7px;
+    border-color: transparent;
+    flex-wrap: nowrap;
+
+}
+
+.botoes{
+    border-radius: 7px;
+    color: white;
+    background-color: #6676FE;
+    border-color: transparent;
+    flex-wrap: nowrap;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+
+h2 {
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+h3 {
+    color: white;
+    margin-left: 6%;
+    flex-wrap: nowrap;
+}
